@@ -1,6 +1,6 @@
 FROM centos:latest
 
-MAINTAINER Fábio Luciano <fabio.goisl@ctis.com.br>
+MAINTAINER Fábio Luciano <fabioluciano@php.net>
 
 # Install dependencies
 RUN yum install -y httpd mod_ssl openssl pcre-devel gcc make initscripts git \
